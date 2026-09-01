@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 5301320226799411071}
   - component: {fileID: 1458599376233093412}
   - component: {fileID: 1126770915774088132}
-  - component: {fileID: 3174502475656706739}
+  - component: {fileID: 3834563172911569585}
   m_Layer: 0
   m_Name: BulletLite_01
   m_TagString: Untagged
@@ -205,8 +205,8 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3174502475656706739
-MeshCollider:
+--- !u!136 &3834563172911569585
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -223,10 +223,11 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3477551807173390131, guid: eb6fb30532e4f0a4b8a2278f7dae041d, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.007554993
+  m_Height: 0.010313244
+  m_Direction: 1
+  m_Center: {x: -0.002423087, y: 0, z: 0}
 --- !u!1 &3575611928538805115
 GameObject:
   m_ObjectHideFlags: 0
